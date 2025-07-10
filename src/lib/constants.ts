@@ -46,8 +46,8 @@ export const ROOMS = [
       "Ghế lười",
       "Ban công",
     ],
-    description: "Giá giờ: 290.000đ/ combo 2h",
-    description1: "Giờ tiếp theo 80k/h | 430.000đ/ combo 4h",
+    description: "290.000đ/combo 2h | 430.000đ/ combo 4h",
+    description1: "Giờ tiếp theo 80k/h",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const ROOMS = [
       "Máy chiếu",
       "Điều hòa",
     ],
-    description: "Giá giờ:  260.000đ/ combo 2h",
-    description1: "Giờ tiếp theo 80k/h | 400.000đ/ combo 4h",
+    description: "260.000đ/combo 2h | 400.000đ/combo 4h",
+    description1: "Giờ tiếp theo 80k/h",
   },
 ] as const;

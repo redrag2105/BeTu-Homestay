@@ -42,8 +42,8 @@ export const ROOMS = [
       "Bếp chung",
       "Bàn trang điểm",
       "Tủ quần áo",
-      "Máy sấy, bàn ủi",
-      "Ghế bập bênh đôi",
+      "Máy sấy",
+      "Ghế lười",
       "Ban công",
     ],
     description: "Giá giờ: 290.000đ/ combo 2h",
@@ -57,11 +57,11 @@ export const ROOMS = [
     image:
       "/standard/standard1.png",
     gallery: [
+      "/standard/standard.png",
       "/standard/standard1.png",
       "/standard/standard2.png",
       "/standard/standard3.png",
       "/standard/standard4.png",
-      "/standard/standard5.png",
     ],
     features: [
       "Nhà tắm riêng",
@@ -69,7 +69,7 @@ export const ROOMS = [
       "Tủ lạnh",
       "Tủ quần áo",
       "Bàn trang điểm",
-      "Máy sấy, bàn ủi",
+      "Máy sấy",
       "Ghế thư giãn",
       "Máy chiếu",
       "Điều hòa",

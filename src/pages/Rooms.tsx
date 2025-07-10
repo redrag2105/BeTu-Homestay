@@ -16,7 +16,6 @@ import {
   Flower,
   Tv,
   Refrigerator,
-  RockingChair,
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { HOMESTAY_INFO, ROOMS } from "@/lib/constants";
@@ -54,19 +53,14 @@ export default function Rooms() {
 
   const getFeatureIcon = (feature: string) => {
     if (feature.includes("Tivi")) return <Tv className="w-4 h-4" />;
-    if (feature.includes("Ghế bập bênh"))
-      return <RockingChair className="w-4 h-4" />;
-    if (feature.includes("Tủ lạnh"))
-      return <Refrigerator className="w-4 h-4" />;
+    if (feature.includes("Tủ lạnh")) return <Refrigerator className="w-4 h-4" />;
     if (feature.includes("tắm")) return <Bath className="w-4 h-4" />;
     if (feature.includes("Bếp")) return <ChefHat className="w-4 h-4" />;
     if (feature.includes("trang điểm")) return <Flower className="w-4 h-4" />;
     if (feature.includes("quần áo")) return <Shirt className="w-4 h-4" />;
-    if (feature.includes("sấy") || feature.includes("ủi"))
-      return <Wind className="w-4 h-4" />;
+    if (feature.includes("sấy")) return <Wind className="w-4 h-4" />;
     if (feature.includes("chiếu")) return <Film className="w-4 h-4" />;
-    if (feature.includes("Sofa") || feature.includes("Ghế"))
-      return <Sofa className="w-4 h-4" />;
+    if (feature.includes("Ghế")) return <Sofa className="w-4 h-4" />;
     if (feature.includes("Ban công")) return <Home className="w-4 h-4" />;
     if (feature.includes("Điều hòa")) return <SunSnow className="w-4 h-4" />;
     return <Award className="w-4 h-4" />;
